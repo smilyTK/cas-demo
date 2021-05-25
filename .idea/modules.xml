@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cas-Demo.iml" filepath="$PROJECT_DIR$/cas-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cas-clientA/cas-clientA.iml" filepath="$PROJECT_DIR$/cas-clientA/cas-clientA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cas-clientB/cas-clientB.iml" filepath="$PROJECT_DIR$/cas-clientB/cas-clientB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cas-clientC/cas-clientC.iml" filepath="$PROJECT_DIR$/cas-clientC/cas-clientC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cas-server/cas-server.iml" filepath="$PROJECT_DIR$/cas-server/cas-server.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cas-clientA:war">
+    <output-path>$PROJECT_DIR$/cas-clientA/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cas-clientA</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cas-sample-java-webapp.war">
+      <element id="artifact" artifact-name="cas-clientA:war exploded" />
+    </root>
+  </artifact>
+</component>

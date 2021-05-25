@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cas-clientC" />
+        <module name="cas-clientB" />
+        <module name="cas-clientA" />
+        <module name="cas-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cas-clientA" target="1.8" />
+      <module name="cas-clientB" target="1.8" />
+      <module name="cas-clientC" target="1.8" />
+      <module name="cas-Demo" target="1.5" />
+      <module name="cas-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cas-clientB" options="-parameters" />
+      <module name="cas-clientC" options="-parameters" />
+    </option>
+  </component>
+</project>
